@@ -1,0 +1,20 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.env.*
+.env.local
+.vscode
+.opencode/
+_backup/
+.next/
+GIT-WORKFLOW.md 
+
+# css/output.css is committed on purpose — the site should work when
+# cloned/deployed with no build step required. Vercel serves the
+# committed files directly (static project); no build step runs on
+# deploy. Keep existing ignore rules above
+claude.md
+
+# Python bytecode (scripts/)
+__pycache__/
